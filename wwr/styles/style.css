@@ -1,0 +1,36 @@
+body {
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 4em;
+	font-size: 18px;
+	text-align: center;
+      }
+body {
+	background-color: #fcfbfb; 
+    }
+header {
+	background-color:rgba(49, 50, 48, 0.7);
+    }
+nav a:hover {
+	background-color: rgb(7, 60, 120);
+    }
+ body {
+	background-color: #fcfbfb; 
+    }
+footer {
+	background-color:rgba(229, 235, 224, 0.7);
+    }
+nav a:hover {
+	background-color: black;
+	color: #d9c2a3;
+    }
+.icon {
+	width: 80px;
+}
+nav a {
+	text-align: center;
+	color: #fcfbfb;
+	text-decoration: none;
+    }    
+		   
+	     
