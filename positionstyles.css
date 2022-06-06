@@ -35,6 +35,10 @@
 /* Activity 2 styles */ 
 .content2 {
   /* This is the parent of the activity 2 boxes. */
+  display: grid;
+  justify-items: margin-top: -50px;
+  grid-gap: 0px;
+}
 }
 .red2 {
   width: 100px; 
@@ -83,25 +87,29 @@
 /* Activity 4 styles */ 
 .content4 {
   /* This is the parent of the activity 4 boxes. */
+  display: grid;
+  grid-template-columns: 2fr;
+  grid-gap: 20px;
   height: 400px;
 }
 .red4 {
-  width: 100px; 
-  height: 100px; 
+  width: 400px; 
+  height: 400px; 
   background-color: red; 
 } 
 .green4 {
-  width: 100px; 
-  height: 100px; 
+  width: 50%; 
+  height: 100px;
+  margin-left: 50px; 
   background-color: green; 
 } 
 .yellow4 {
-  width: 100px; 
-  height: 100px; 
+  width: 50%; 
+  height: 100px;
   background-color: gold; 
 } 
 .blue4 {
-  width: 100px; 
+  width: 50%; 
   height: 100px; 
   background-color: blue; 
 } 
